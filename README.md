@@ -14,7 +14,7 @@
 
 ### Gems for testing:
 
-* Rspec for controllers, requests, routing,  views, models
+* Rspec-rails for controllers, requests, routing,  views, models
 
 * Database_cleaner
 
@@ -35,3 +35,11 @@ basic tests for MVC
 
 `rails generate rspec:model User`
 create test for a model
+
+## Links
+
+[Rspec_rails] (https://github.com/rspec/rspec-rails)
+[Factory_girl_rails] (https://github.com/thoughtbot/factory_girl_rails)
+[DB cleaner] (https://github.com/DatabaseCleaner/database_cleaner)
+[Faker] (https://github.com/stympy/faker)
+[Habr post] (https://habrahabr.ru/post/163597/)
