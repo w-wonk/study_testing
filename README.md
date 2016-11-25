@@ -1,24 +1,37 @@
-# README
+# README for the ROR app with a basic tests (RSPEC)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Things you may want to cover:
 
-Things you may want to cover:
+* Ruby version 5.0
 
-* Ruby version
+* System dependencies mysql 5.7
 
-* System dependencies
+* Install gems `bundle install`
 
-* Configuration
+* Database creation `rails db:create db:migrate`
 
-* Database creation
+* How to run the test suite `rspec` or ` rspec spec/models` etc.
 
-* Database initialization
+### Gems for testing:
 
-* How to run the test suite
+* Rspec for controllers, requests, routing,  views, models
 
-* Services (job queues, cache servers, search engines, etc.)
+* Database_cleaner
 
-* Deployment instructions
+* Factory_girl_rails for models
 
-* ...
+* Faker for models
+
+## How to create an example
+
+`rails generate scaffold User username:string password:string role_id:integer enabled:boolean`
+generate MVC
+
+` rails generate rspec:install`
+prepare to use rspec
+
+`rails generate rspec:scaffold User`
+basic tests for MVC
+
+`rails generate rspec:model User`
+create test for a model
