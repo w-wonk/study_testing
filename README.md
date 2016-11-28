@@ -2,7 +2,7 @@
 
 ## Things you may want to cover:
 
-* Ruby version 5.0
+* ROR version 5.0
 
 * System dependencies mysql 5.7
 
